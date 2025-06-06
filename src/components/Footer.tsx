@@ -12,7 +12,7 @@ const Footer = () => {
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
           <p className="text-center text-xs leading-5 text-gray-400">
-            &copy; {new Date().getFullYear()} Securedev. All rights reserved.
+            &copy; {new Date().getFullYear()} 2025 Portfolio All rights reserved.
           </p>
         </div>
       </div>

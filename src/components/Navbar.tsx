@@ -54,7 +54,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5 flex items-center gap-2">
               <Shield className="h-8 w-8 text-emerald-500" />
-              <span className="font-mono text-xl text-emerald-500">Securedev</span>
+              <span className="font-mono text-xl text-emerald-500">Jeffin Sam Joji</span>
             </a>
             <button
               type="button"
