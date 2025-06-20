@@ -15,7 +15,7 @@ const projects = [
     title: 'Neural Network Hyperparameter Tuning using Weka',
     description: 'Optimized machine learning models by experimenting with hyperparameters like learning rate and momentum using Weka.',
     icon: Bug,
-    link: '#', // Replace with actual link if available
+    link: '/Portfolio/Cosc_3p71_Assignment_3.pdf', // Replace with actual link if available
     tags: ['Machine Learning', 'Weka', 'Data Analysis'],
   },
   {
