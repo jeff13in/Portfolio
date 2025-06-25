@@ -16,8 +16,7 @@ const Navbar = () => {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5 flex items-center gap-2">
-            <Shield className="h-8 w-8 text-emerald-500" />
-            <span className="font-mono text-xl text-emerald-500">Securedev</span>
+            <span className="font-mono text-xl text-emerald-500">Jeffin Sam  Joji</span>
           </a>
         </div>
         <div className="flex lg:hidden">

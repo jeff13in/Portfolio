@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl">Get in Touch</h2>
           <p className="mt-4 text-lg leading-8 text-gray-400">
-            Interested in collaborating on security research or need consulting? Let's connect.
+            Interested in collaborating on security research. Let's connect.
           </p>
         </div>
         <form className="mx-auto mt-16 max-w-xl">
@@ -63,13 +63,13 @@ const Contact = () => {
           </div>
         </form>
         <div className="mt-16 flex justify-center gap-8">
-          <a href="#" className="text-gray-400 hover:text-emerald-500 transition-colors">
+          <a href="https://github.com/jeff13in" target="_blank" className="text-gray-400 hover:text-emerald-500 transition-colors">
             <Github className="h-6 w-6" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-emerald-500 transition-colors">
+          <a href="https://www.linkedin.com/in/jeffin-sam-joji/" target="_blank" className="text-gray-400 hover:text-emerald-500 transition-colors">
             <Linkedin className="h-6 w-6" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-emerald-500 transition-colors">
+          <a href="mailto:ejffinsam14@gmail.com" target="_blank" className="text-gray-400 hover:text-emerald-500 transition-colors">
             <Mail className="h-6 w-6" />
           </a>
         </div>

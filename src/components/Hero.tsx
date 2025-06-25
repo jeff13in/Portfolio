@@ -40,11 +40,13 @@ const Hero = () => {
                 View Projects
               </a>
               <a
-                href="#contact"
-                className="text-sm font-semibold leading-6 text-gray-300 hover:text-emerald-500 transition-colors"
+                href="jeffin-resume.pdf" target="_blank"
+                className="rounded-md bg-emerald-500 px-6 py-3 text-sm font-semibold text-gray-900 shadow-sm hover:bg-emerald-400 transition-colors"
               >
-                Contact Me <span aria-hidden="true">→</span>
+              Resume
               </a>
+
+
             </div>
           </div>
           <div className="relative mt-8 lg:mt-0">

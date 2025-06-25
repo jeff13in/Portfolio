@@ -2,27 +2,39 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div id="about" className="bg-stone-50 py-24 sm:py-32">
+    <div id="about" className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-16 lg:grid-cols-2">
-          <div>
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Story</h2>
-            <p className="mt-4 text-lg leading-8 text-gray-600">
-              Hebr was born from a desire to create clothing that honors cultural heritage while embracing modern minimalism. 
-              Each piece in our collection is thoughtfully designed to tell a story, combining traditional elements with 
-              contemporary silhouettes.
+        <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-between">
+          {/* Text Section */}
+          <div className="lg:w-1/2">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-100 sm:text-4xl">About</h2>
+            <p className="mt-4 text-lg leading-8 text-gray-400">
+              Hi, I am Jeffin Sam Joji. I am a full-time student at Brock University pursuing a Bachelor of Computer Science.
             </p>
-            <p className="mt-4 text-lg leading-8 text-gray-600">
-              We work with skilled artisans who bring generations of expertise to our pieces, ensuring that every 
-              garment maintains the highest standards of craftsmanship while promoting sustainable and ethical 
-              fashion practices.
-            </p>
+            <div className="mt-10">
+              <h3 className="text-xl font-semibold text-gray-100">Here are the technologies I have been working with:</h3>
+              <ul className="mt-4 list-disc list-inside text-gray-400">
+                <li>TypeScript</li>
+                <li>Python</li>
+                <li>React.js</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>C#</li>
+              </ul>
+            </div>
+            <div className="mt-10">
+              <p className="mt-4 text-lg leading-8 text-gray-400">
+                Outside of Work, I'm interested in solving puzzles and playing chess.
+              </p>
+            </div>
           </div>
-          <div className="relative">
+
+          {/* Image Section */}
+          <div className="mt-10 lg:mt-0 lg:w-1/2 flex justify-center">
             <img
-              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80"
-              alt="Artisan workshop"
-              className="aspect-[3/2] w-full rounded-2xl object-cover"
+              src="IMG_6789.jpg" // Replace with the actual path to your image
+              alt="Jeffin Sam Joji"
+              className="rounded-lg shadow-lg w-64 h-64 object-cover"
             />
           </div>
         </div>
