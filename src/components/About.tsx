@@ -32,7 +32,7 @@ const About = () => {
           {/* Image Section */}
           <div className="mt-10 lg:mt-0 lg:w-1/2 flex justify-center">
             <img
-              src="/IMG_6789.jpg" // Replace with the actual path to your image
+              src="/Portfolio/IMG_6789.jpg" // Replace with the actual path to your image
               alt="Jeffin Sam Joji"
               className="rounded-lg shadow-lg w-64 h-64 object-cover"
             />
