@@ -3,13 +3,34 @@ import React from 'react';
 const Experience = [
   {
     id: 1,
+    title: 'Software Engineer Intern at Meritrium Corp',
+    description: 'Built a full-stack web application using React (frontend) and Python/Flask (backend). Designed and implemented RESTful APIs to integrate external data sources and support real-time features. Applied OCR and file handling pipelines to automate document parsing and data extraction. Improved usability by designing intuitive user flows and prompts for complex workflows.',
+    link: '#', // Update with relevant link if available
+    tags: ['React', 'Python', 'Flask', 'RESTful APIs', 'OCR', 'JavaScript', 'HTML', 'CSS', 'SQL', 'Full-Stack Development'],
+  },
+  {
+    id: 2,
+    title: 'Supervisor at Digital Attractions',
+    description: 'Trained and mentored new hires using onboarding guides and hands-on coaching, improving new hire efficiency by 35% in their first month. Implemented structured troubleshooting processes to resolve technical issues, reducing customer wait times by 25%. Submitted and tracked inventory tickets, ensuring accurate stock management and preventing service disruptions.',
+    link: '#', // Update with relevant link if available
+    tags: ['Leadership', 'Training & Mentoring', 'Process Improvement', 'Troubleshooting', 'Inventory Management', 'Customer Service'],
+  },
+  {
+    id: 3,
+    title: 'Digital Photo Associate at Digital Attractions',
+    description: 'Proficiently captured high-quality digital photos of tourists at popular Niagara Falls attractions, creating memorable visual experiences. Utilized advanced photography equipment and editing software to enhance image quality while efficiently managing high-volume tourist photo sessions during peak hours with strong organizational skills and attention to detail.',
+    link: '#', // Update with relevant link if available
+    tags: ['Photography', 'Image Editing', 'Customer Service', 'Time Management', 'Attention to Detail', 'High-Volume Operations'],
+  },
+  {
+    id: 4,
     title: 'Cybersecurity Job Simulation at PwC',
     description: 'Completed a job simulation involving cybersecurity for PwC Digital Intelligence, gaining experience in understanding and explaining the concept of integrated defense. Developed expertise in integrated defense strategies and their application in real-world scenarios. Conducted risk assessments and formulated security recommendations for a client. Demonstrated proficiency in cybersecurity terminology, network segmentation, and firewall configuration',
     link: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/4sLyCPgmsy8DA6Dh3/f9H4CHchzrKQbnbmK_4sLyCPgmsy8DA6Dh3_TnaiatFqQ63rTfNSf_1730924737896_completion_certificate.pdf', // Ensure this is a valid URL
     tags: ['Cause Analysis',
         'Firewall Configuration',
         'Integrated Defense',
-        'Network Segmentation',     
+        'Network Segmentation',
         'Impact Analysis',
         'Network Security',
         'Presentation Prep',
@@ -18,7 +39,7 @@ const Experience = [
         'Risk Management Frameworks',
         'System Security'],
   },
- 
+
 ];
 
 const Experiences = () => {

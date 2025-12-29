@@ -1,9 +1,17 @@
 import React from 'react';
-import { Shield, Lock, Bug, Wifi, SquareGantt } from 'lucide-react';
+import { Shield, Lock, Bug, Wifi, SquareGantt, Bot } from 'lucide-react';
 
 const projects = [
   {
     id: 1,
+    title: 'Instagram Comment-to-Get Automation',
+    description: 'Built a full-stack web application that automates Instagram comment responses using keyword detection. Features Google OAuth authentication, email subscription management, and automated DM campaigns with 98.7% reply success rate.',
+    icon: Bot,
+    link: '#',
+    tags: ['Python', 'Flask', 'Instagram API', 'OAuth 2.0', 'SQLAlchemy', 'Automation'],
+  },
+  {
+    id: 2,
     title: 'AI Newsletter and Social Media Content Generator',
     description: 'Developed a full-stack web application using Django and NLP to automate content creation for newsletters and social media platforms.',
     icon: SquareGantt,
@@ -11,7 +19,7 @@ const projects = [
     tags: ['Python', 'Django', 'NLP', 'Full Stack'],
   },
   {
-    id: 2,
+    id: 3,
     title: 'Neural Network Hyperparameter Tuning using Weka',
     description: 'Optimized machine learning models by experimenting with hyperparameters like learning rate and momentum using Weka.',
     icon: Bug,
@@ -19,7 +27,7 @@ const projects = [
     tags: ['Machine Learning', 'Weka', 'Data Analysis'],
   },
   {
-    id: 3,
+    id: 4,
     title: 'Multiplayer Game using Socket Programming',
     description: 'Built a networked multiplayer game in Java using sockets and Swing, supporting real-time synchronization and messaging.',
     icon: Wifi,
@@ -27,7 +35,7 @@ const projects = [
     tags: ['Java', 'Socket Programming', 'Game Development'],
   },
   {
-    id: 4,
+    id: 5,
     title: 'Introduction to Cyber-Security',
     description: 'Completed hands-on offensive security assignments using Kali Linux and Docker-based labs, including privilege escalation and ARP spoofing.',
     icon: Lock,

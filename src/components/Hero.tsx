@@ -40,7 +40,7 @@ const Hero = () => {
                 View Projects
               </a>
               <a
-                href="/Portfolio/jeffin-resume.pdf" target="_blank"
+                href="/Portfolio/resume_jeffin.pdf" target="_blank"
                 className="rounded-md bg-emerald-500 px-6 py-3 text-sm font-semibold text-gray-900 shadow-sm hover:bg-emerald-400 transition-colors"
               >
               Resume
