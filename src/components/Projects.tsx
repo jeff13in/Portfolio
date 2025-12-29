@@ -7,7 +7,7 @@ const projects = [
     title: 'Instagram Comment-to-Get Automation',
     description: 'Built a full-stack web application that automates Instagram comment responses using keyword detection. Features Google OAuth authentication, email subscription management, and automated DM campaigns with 98.7% reply success rate.',
     icon: Bot,
-    link: '#',
+    link: 'https://github.com/jeff13in/Instagram-Comment-to-Get-Automation',
     tags: ['Python', 'Flask', 'Instagram API', 'OAuth 2.0', 'SQLAlchemy', 'Automation'],
   },
   {
