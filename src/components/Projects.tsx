@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Lock, Bug, Wifi, SquareGantt, Bot } from 'lucide-react';
+import { Shield, Lock, Bug, Wifi, SquareGantt, Bot, ClipboardCheck, Music } from 'lucide-react';
 
 const projects = [
   {
@@ -7,7 +7,7 @@ const projects = [
     title: 'Instagram Comment-to-Get Automation',
     description: 'Built a full-stack web application that automates Instagram comment responses using keyword detection. Features Google OAuth authentication, email subscription management, and automated DM campaigns with 98.7% reply success rate.',
     icon: Bot,
-    link: 'https://github.com/jeff13in/Instagram-Comment-to-Get-Automation',
+    link: 'https://github.com/jeff13in/Comment-to-Get-Automation',
     tags: ['Python', 'Flask', 'Instagram API', 'OAuth 2.0', 'SQLAlchemy', 'Automation'],
   },
   {
@@ -39,8 +39,32 @@ const projects = [
     title: 'Introduction to Cyber-Security',
     description: 'Completed hands-on offensive security assignments using Kali Linux and Docker-based labs, including privilege escalation and ARP spoofing.',
     icon: Lock,
-    link: '#', // Replace with actual link if available
+    link: '#',
     tags: ['Cybersecurity', 'Kali Linux', 'Docker', 'Python'],
+  },
+  {
+    id: 6,
+    title: 'AI Threat Detection System',
+    description: 'Built an AI-powered cybersecurity threat detection system using ML algorithms (Isolation Forest, DBSCAN, PCA) for anomaly detection, integrated with VirusTotal, AbuseIPDB, OTX AlienVault, MalwareBazaar, and CVE CIRCL threat intelligence APIs for comprehensive security analysis.',
+    icon: Shield,
+    link: 'https://github.com/jeff13in/AI-threat_Detection',
+    tags: ['Python', 'Machine Learning', 'Flask', 'scikit-learn', 'Cybersecurity', 'Threat Intelligence'],
+  },
+  {
+    id: 7,
+    title: 'SecureShop Risk Assessment',
+    description: 'Conducted a comprehensive GRC security risk assessment for a hypothetical e-commerce platform, identifying 18 control gaps mapped to NIST CSF, PCI-DSS v4.0, GDPR, and OWASP Top 10. Delivered a prioritized remediation roadmap reducing $450K annual risk exposure by 83% with a 383% ROI.',
+    icon: ClipboardCheck,
+    link: 'https://github.com/jeff13in/SecureShop-Risk-Assessment',
+    tags: ['GRC', 'NIST CSF', 'PCI-DSS', 'GDPR', 'OWASP', 'Risk Assessment'],
+  },
+  {
+    id: 8,
+    title: 'VibeMap – Music Recommendation System',
+    description: 'Developed a full-stack music recommendation system using Spotify audio features. Songs are clustered by mood using K-Means and recommended via KNN, cosine, and euclidean similarity. Features a React + TypeScript frontend, Flask REST API with 8 endpoints, interactive CLI, and 125 automated tests at 88% coverage.',
+    icon: Music,
+    link: 'https://github.com/jeff13in/VibeMap',
+    tags: ['Python', 'React', 'TypeScript', 'Flask', 'Machine Learning', 'scikit-learn'],
   },
 ];
 
