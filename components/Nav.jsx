@@ -44,7 +44,7 @@ const Nav = () => {
         ))}
       </div>
 
-      <a href="assets/resume_jeffin.pdf" target="_blank" rel="noopener noreferrer"
+      <a href="assets/resumee.pdf" target="_blank" rel="noopener noreferrer"
         style={{ fontFamily: 'var(--font-mono)', fontSize: '12px', color: 'var(--accent)', border: '1px solid rgba(16,185,129,0.35)', padding: '8px 18px', borderRadius: '3px', letterSpacing: '0.05em', transition: 'all 0.2s' }}
         onMouseEnter={e => { e.currentTarget.style.background = 'var(--accent)'; e.currentTarget.style.color = '#000'; }}
         onMouseLeave={e => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = 'var(--accent)'; }}

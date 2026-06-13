@@ -38,3 +38,4 @@ npm-debug.log*
 *.pdf
 *.jpg
 !assets/jeffin.jpg
+!assets/resumee.pdf
