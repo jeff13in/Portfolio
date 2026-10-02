@@ -1,5 +1,6 @@
 import React from 'react';
-import { Shield, Lock, Bug, Wifi, SquareGantt, Bot, ClipboardCheck, Music } from 'lucide-react';
+import { Shield, Lock, Bug, Wifi, SquareGantt, Bot, ClipboardCheck, Music, Gamepad2 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const projects = [
   {
@@ -66,6 +67,15 @@ const projects = [
     link: 'https://github.com/jeff13in/VibeMap',
     tags: ['Python', 'React', 'TypeScript', 'Flask', 'Machine Learning', 'scikit-learn'],
   },
+  {
+    id: 9,
+    title: 'Ultimate Tic-Tac-Toe',
+    description: 'An interactive, playable implementation of Ultimate Tic-Tac-Toe built with React and TypeScript — nine nested boards where winning a small board claims it on the larger meta-board.',
+    icon: Gamepad2,
+    link: '/ultimate-tic-tac-toe',
+    internal: true,
+    tags: ['React', 'TypeScript', 'Game Development'],
+  },
 ];
 
 const Projects = () => {
@@ -91,14 +101,20 @@ const Projects = () => {
                     <IconComponent className="h-6 w-6 text-emerald-500" />
                   </div>
                   <h3 className="text-xl font-semibold text-gray-100">
-                    <a
-                      href={project.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:underline text-emerald-500"
-                    >
-                      {project.title}
-                    </a>
+                    {project.internal ? (
+                      <Link to={project.link} className="hover:underline text-emerald-500">
+                        {project.title}
+                      </Link>
+                    ) : (
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline text-emerald-500"
+                      >
+                        {project.title}
+                      </a>
+                    )}
                   </h3>
                 </div>
                 <p className="mt-4 text-gray-400 flex-grow">{project.description}</p>
